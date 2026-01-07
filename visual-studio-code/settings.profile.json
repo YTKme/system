@@ -2,6 +2,8 @@
     "breadcrumbs.enabled": true,
     "editor.inlineSuggest.enabled": true,
     "editor.insertSpaces": true,
+    "editor.minimap.enabled": true,
+    "editor.minimap.showSlider": "mouseover",
     "editor.rulers": [
         72,
         80,
@@ -21,12 +23,6 @@
     },
     "files.trimTrailingWhitespace": true,
     "workbench.startupEditor": "none",
-    "github.copilot.enable": {
-        "*": true,
-        "plaintext": true,
-        "markdown": true,
-        "scminput": false
-    },
     "telemetry.telemetryLevel": "crash",
     "terminal.integrated.shell.osx": "/bin/bash",
     "[json]": {
@@ -34,5 +30,18 @@
     },
     "[markdown]": {
         "editor.wordWrap": "off"
-    }
+    },
+    "github.copilot.enable": {
+        "*": true,
+        "plaintext": true,
+        "markdown": true,
+        "scminput": false
+    },
+    "github.copilot.nextEditSuggestions.enabled": true,
+    "chat.instructionsFilesLocations": {
+        ".github/instructions": true
+    },
+    "postman.telemetry.enabled": false,
+    "postman.mcp.notifications.postmanMCP": false,
+    "redhat.telemetry.enabled": false
 }
