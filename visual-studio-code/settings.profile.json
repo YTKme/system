@@ -5,9 +5,30 @@
     "editor.minimap.enabled": true,
     "editor.minimap.showSlider": "mouseover",
     "editor.rulers": [
-        72,
-        80,
-        120
+        {
+            "column": 72,
+            // "color": "#0909"
+            "color": "#005A00FF"
+        },
+        {
+            "column": 80,
+            // "color": "#9909"
+            "color": "#4183C499"
+        },
+        {
+            "column": 88,
+            // "color": "#cc09"
+            "color": "#FFD34366"
+        },
+        // {
+        //     "column": 100,
+        //     "color": "#E33B2699"
+        // },
+        {
+            "column": 120,
+            // "color": "#9009"
+            "color": "#4F5B93FF"
+        }
     ],
     "editor.wordWrap": "off",
     "explorer.compactFolders": false,
